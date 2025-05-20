@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 41 38% 95%;
+    --foreground: 26 5% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 26 5% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 26 5% 20%;
+
+    --primary: 43 57% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 38 50% 94%;
+    --secondary-foreground: 26 5% 20%;
+
+    --muted: 38 40% 92%;
+    --muted-foreground: 26 10% 40%;
+
+    --accent: 43 57% 52%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 38 30% 82%;
+    --input: 38 30% 82%;
+    --ring: 43 57% 52%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cream text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  p {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .gold-gradient {
+    @apply bg-gradient-to-b from-gold to-gold-dark;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-serif font-medium mb-8 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-2xl md:text-3xl font-serif font-normal mb-6;
+  }
+}
