@@ -1,9 +1,9 @@
-
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -28,12 +28,28 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Simulating API call
-    setTimeout(() => {
+    try {
+      const templateParams = {
+        from_name: formData.name,
+        phone_number: formData.phone,
+        email: formData.email,
+        address: formData.address,
+        message: formData.message,
+        preferred_contact: formData.preferredContact,
+      };
+
+      await emailjs.send(
+        'service_4te1xpl', // 여기에 EmailJS 서비스 ID를 입력하세요
+        'template_2srrhac', // 여기에 EmailJS 템플릿 ID를 입력하세요
+        templateParams,
+        'zxNI4f5oQR9733JQN' // 여기에 EmailJS 공개 키를 입력하세요
+      );
+
       toast({
         title: "상담 신청 완료",
         description: "상담 신청이 성공적으로 접수되었습니다. 곧 연락드리겠습니다.",
       });
+
       setFormData({
         name: "",
         phone: "",
@@ -42,8 +58,16 @@ const Contact = () => {
         message: "",
         preferredContact: "전화",
       });
+    } catch (error) {
+      toast({
+        title: "오류 발생",
+        description: "상담 신청 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+        variant: "destructive",
+      });
+      console.error('Error:', error);
+    } finally {
       setLoading(false);
-    }, 1000);
+    }
   };
 
   return (
