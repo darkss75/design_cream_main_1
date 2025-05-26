@@ -17,50 +17,48 @@ import {
 const portfolioItems = [
   {
     id: 1,
-    title: "잠실 롯데캐슬 아파트",
+    title: "강서 등촌마을 32평형",
     category: "",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2074",
+    image: "/images/portfolio/main1.jpg",
     detailImages: [
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2074",
-      "https://images.unsplash.com/photo-1616137148650-4aa14651e96a?q=80&w=2071",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070",
-      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=80&w=2070"
+      "/images/portfolio/detail1-1.jpg",
+      "/images/portfolio/detail1-2.jpg",
+      "/images/portfolio/detail1-3.jpg"
     ]
   },
   {
     id: 2,
-    title: "반포 자이 아파트",
+    title: "분당 이매상성아파트 46평형",
     category: "",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070",
+    image: "/images/portfolio/main2.jpg",
     detailImages: [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070", 
-      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?q=80&w=2074",
-      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=2032",
-      "https://images.unsplash.com/photo-1617298748161-7ddbf231e8a2?q=80&w=2070"
+      "/images/portfolio/detail2-1.jpg", 
+      "/images/portfolio/detail2-2.jpg",
+      "/images/portfolio/detail2-3.jpg"
     ]
   },
   {
     id: 3,
-    title: "송파 헬리오시티",
+    title: "월계동 우남아파트 32평형",
     category: "",
-    image: "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=80&w=2070",
+    image: "/images/portfolio/main3.jpg",
     detailImages: [
-      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=80&w=2070",
-      "https://images.unsplash.com/photo-1613685703305-cdb1d7547606?q=80&w=2070",
-      "https://images.unsplash.com/photo-1613685703237-6628a4804ac9?q=80&w=2070",
-      "https://images.unsplash.com/photo-1615529179035-e760f6a2dcee?q=80&w=2070"
+      "/images/portfolio/detail3-1.jpg",
+      "/images/portfolio/detail3-2.jpg",
+      "/images/portfolio/detail3-3.jpg",
+      "/images/portfolio/detail3-4.jpg"
     ]
   },
   {
     id: 4,
-    title: "판교 알파리움",
+    title: "중계 10단지 24평형 ",
     category: " ",
-    image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2070",
+    image: "/images/portfolio/main4.jpg",
     detailImages: [
-      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2070",
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070",
-      "https://images.unsplash.com/photo-1600566753376-12c6b48e1be7?q=80&w=2070", 
-      "https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=2074"
+      "/images/portfolio/detail4-1.jpg",
+      "/images/portfolio/detail4-2.jpg",
+      "/images/portfolio/detail4-3.jpg", 
+      "/images/portfolio/detail4-4.jpg"
     ]
   },
 ];
