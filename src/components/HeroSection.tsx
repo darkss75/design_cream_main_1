@@ -12,7 +12,7 @@ const slides = [
   },
   {
     image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2832",
-    title: "15년의 노하우로",
+    title: "18년의 노하우로",
     subtitle: "고객의 라이프스타일을 디자인합니다",
   },
   {

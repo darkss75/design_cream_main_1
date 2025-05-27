@@ -22,7 +22,7 @@ const ConsultationCTA = () => {
             당신의 이상적인 공간을 함께 만들어보세요
           </h2>
           <p className="text-lg md:text-xl mb-8 opacity-90">
-            15년 경력의 나경화 대표가 직접 상담해드립니다.
+            18년 경력의 나경화 대표가 직접 상담해드립니다.
             지금 무료 상담을 신청하고 새로운 공간의 시작을 준비하세요.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

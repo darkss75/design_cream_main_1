@@ -11,7 +11,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-6">회사소개</h1>
             <p className="text-xl text-muted-foreground">
-              15년의 경험으로 쌓아온 디자인크림의 철학과 가치를 소개합니다
+              18년의 경험으로 쌓아온 디자인크림의 철학과 가치를 소개합니다
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ const About = () => {
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg max-w-[200px]">
                 <p className="font-serif text-gold text-lg">나경화 대표</p>
                 <p className="text-sm text-muted-foreground">
-                  15년 인테리어 전문가
+                  18년 인테리어 전문가
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ const About = () => {
                 인테리어 코디네이터로 3년간 일한 후 직접 인테리어 사업을 시작했습니다.
               </p>
               <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                15년간 쌓아온 풍부한 경험을 바탕으로, 고객의 니즈를 정확히 파악하고 
+                18년간 쌓아온 풍부한 경험을 바탕으로, 고객의 니즈를 정확히 파악하고 
                 이를 실현시키는 능력을 갖추고 있습니다. 특히 초기 미팅에서 고객의 색상 취향을
                 파악하는 것부터 시작하여, 공간의 구조와 용도에 맞는 최적의 디자인을 제안합니다.
               </p>
@@ -170,7 +170,7 @@ const About = () => {
             디자인크림과 함께 당신의 공간을 변화시키세요
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            15년의 노하우로 완성되는 특별한 공간 디자인을 경험하세요.
+            18년의 노하우로 완성되는 특별한 공간 디자인을 경험하세요.
             지금 바로 무료 상담을 신청하고 새로운 시작을 준비하세요.
           </p>
           <Button

@@ -33,7 +33,7 @@ const ServicesHighlight = () => {
       <div className="container-custom">
         <h2 className="section-title">서비스 안내</h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          15년 경험의 전문가가 직접 현장을 관리하며 완벽한 인테리어 서비스를 제공합니다.
+          18년 경험의 전문가가 직접 현장을 관리하며 완벽한 인테리어 서비스를 제공합니다.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
