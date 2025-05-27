@@ -33,7 +33,7 @@ const AboutPreview = () => {
           <div className="order-1 md:order-2">
             <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1600607687644-c7171b46277b?q=80&w=2069"
+                src="/images/about/528.jpg"
                 alt="인테리어 작업 모습"
                 className="w-full h-full object-cover"
               />

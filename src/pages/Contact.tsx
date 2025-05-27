@@ -261,19 +261,12 @@ const Contact = () => {
                       strokeLinejoin="round"
                       className="text-gold mr-3"
                     >
-                      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
-                    <span className="group-hover:text-gold">
-                      네이버 블로그 방문하기
-                    </span>
+                    <span className="group-hover:text-gold">디자인크림 블로그</span>
                   </a>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-medium mb-3">카카오톡 상담</h3>
-                  <Button className="bg-[#FEE500] hover:bg-[#F6DC00] text-black">
-                    카카오톡으로 상담하기
-                  </Button>
                 </div>
 
                 <div className="border-t border-gold/20 pt-8 mt-8">

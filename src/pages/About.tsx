@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -43,7 +42,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000"
+                  src="/images/about/527.jpg"
                   alt="인테리어 디자인 철학"
                   className="w-full h-full object-cover"
                 />
@@ -65,7 +64,7 @@ const About = () => {
             <div className="order-2 md:order-1 relative">
               <div className="aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-4c4c79ecde51?q=80&w=987"
+                  src="/images/about/ceo.jpg"
                   alt="나경화 대표"
                   className="w-full h-full object-cover"
                 />
